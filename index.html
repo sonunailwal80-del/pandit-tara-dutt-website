@@ -3,6 +3,789 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>पंडित तारा दत्त शास्त्री | ज्योतिषाचार्य एवं वैदिक कर्मकाण्ड विशेषज्ञ</title>
+  <meta name="description" content="पंडित तारा दत्त शास्त्री - ज्योतिष परामर्श, वैदिक कर्मकाण्ड, विवाह मुहूर्त, कुंडली मिलान, गृह प्रवेश, पूजा-पाठ तथा उत्तराखंडी रिश्तों हेतु विश्वसनीय सेवा।" />
+  <style>
+    :root{
+      --maroon:#7d0d12;
+      --deep:#5b0a0e;
+      --saffron:#f0a41f;
+      --gold:#ffd56a;
+      --cream:#fff8ef;
+      --text:#2c1b12;
+      --white:#ffffff;
+      --green:#25D366;
+      --shadow:0 10px 30px rgba(0,0,0,.12);
+      --radius:22px;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
+    body{
+      font-family: "Noto Sans Devanagari", Mangal, Arial, sans-serif;
+      background: linear-gradient(180deg,#fffaf3 0%, #fff4e4 100%);
+      color:var(--text);
+      line-height:1.7;
+    }
+
+    a{text-decoration:none;color:inherit;}
+    img{max-width:100%;display:block;}
+
+    .top-strip{
+      background: var(--maroon);
+      color: #fff;
+      text-align:center;
+      padding:10px 12px;
+      font-size:14px;
+      font-weight:600;
+      letter-spacing:.2px;
+    }
+
+    header{
+      background: linear-gradient(135deg, #8b1016 0%, #c44c12 50%, #e0b01e 100%);
+      color:#fff;
+      padding:18px 14px 90px;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .nav{
+      max-width:1100px;
+      margin:0 auto 18px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:10px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width:0;
+    }
+
+    .brand-logo{
+      width:48px;
+      height:48px;
+      border-radius:50%;
+      background:rgba(255,255,255,.18);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:24px;
+      border:1px solid rgba(255,255,255,.25);
+      flex-shrink:0;
+    }
+
+    .brand h1{
+      font-size:20px;
+      line-height:1.25;
+      font-weight:800;
+    }
+
+    .brand p{
+      font-size:12px;
+      opacity:.95;
+    }
+
+    .nav-links{
+      display:flex;
+      gap:14px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+      font-size:14px;
+      font-weight:700;
+    }
+
+    .hero{
+      max-width:1100px;
+      margin:0 auto;
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:24px;
+      align-items:center;
+    }
+
+    .hero-card{
+      background: linear-gradient(135deg, rgba(103,13,18,.58), rgba(151,79,16,.45));
+      border:1px solid rgba(255,255,255,.18);
+      box-shadow: var(--shadow);
+      border-radius:32px;
+      padding:32px 22px;
+      backdrop-filter: blur(6px);
+    }
+
+    .tag{
+      display:inline-block;
+      background:rgba(255,255,255,.15);
+      border:1px solid rgba(255,255,255,.22);
+      color:#fff;
+      padding:8px 14px;
+      border-radius:999px;
+      font-size:13px;
+      font-weight:700;
+      margin-bottom:16px;
+    }
+
+    .hero h2{
+      font-size:46px;
+      line-height:1.15;
+      color:var(--gold);
+      margin-bottom:14px;
+      font-weight:900;
+    }
+
+    .hero .sub{
+      font-size:24px;
+      font-weight:700;
+      margin-bottom:18px;
+    }
+
+    .hero .desc{
+      font-size:20px;
+      opacity:.98;
+      margin-bottom:24px;
+    }
+
+    .hero-buttons{
+      display:flex;
+      gap:14px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      min-height:54px;
+      padding:14px 24px;
+      border-radius:999px;
+      font-size:18px;
+      font-weight:800;
+      border:none;
+      cursor:pointer;
+      transition:.25s ease;
+      box-shadow: var(--shadow);
+    }
+
+    .btn:hover{transform:translateY(-2px);}
+    .btn-call{
+      background:#fff;
+      color:var(--maroon);
+    }
+    .btn-wa{
+      background:#fff;
+      color:#0b7031;
+    }
+    .btn-outline{
+      background:transparent;
+      border:2px solid rgba(255,255,255,.35);
+      color:#fff;
+      box-shadow:none;
+    }
+
+    .hero-side{
+      display:flex;
+      justify-content:center;
+    }
+
+    .photo-card{
+      width:100%;
+      max-width:360px;
+      background:rgba(255,255,255,.12);
+      border:1px solid rgba(255,255,255,.18);
+      border-radius:30px;
+      padding:18px;
+      box-shadow:var(--shadow);
+      text-align:center;
+    }
+
+    .photo-box{
+      width:100%;
+      aspect-ratio: 4 / 5;
+      border-radius:24px;
+      background: linear-gradient(180deg,#fff6d8,#ffe7a4);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:var(--maroon);
+      font-size:22px;
+      font-weight:800;
+      text-align:center;
+      padding:18px;
+      border:2px dashed rgba(125,13,18,.25);
+    }
+
+    .photo-note{
+      margin-top:12px;
+      font-size:14px;
+      color:#fff8dc;
+    }
+
+    .floating-curve{
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:-1px;
+      height:70px;
+      background:linear-gradient(180deg, transparent 0%, transparent 40%, #fffaf3 41%, #fffaf3 100%);
+      border-top-left-radius:50% 40px;
+      border-top-right-radius:50% 40px;
+    }
+
+    .section{
+      max-width:1100px;
+      margin:0 auto;
+      padding:28px 14px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:22px;
+    }
+
+    .section-title h3{
+      font-size:34px;
+      color:var(--maroon);
+      margin-bottom:8px;
+      font-weight:900;
+    }
+
+    .section-title p{
+      color:#6d4c36;
+      font-size:17px;
+    }
+
+    .about-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+      align-items:stretch;
+    }
+
+    .card{
+      background:var(--white);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:22px;
+    }
+
+    .card h4{
+      font-size:24px;
+      color:var(--maroon);
+      margin-bottom:12px;
+    }
+
+    .highlight{
+      background:linear-gradient(135deg,#fff4cf,#ffe6b0);
+      border:1px solid #f4d37f;
+    }
+
+    .about-list,
+    .contact-list,
+    .service-list{
+      list-style:none;
+      display:grid;
+      gap:10px;
+    }
+
+    .about-list li,
+    .contact-list li,
+    .service-list li{
+      background:#fffaf3;
+      border:1px solid #f1e2c9;
+      padding:12px 14px;
+      border-radius:16px;
+      font-size:17px;
+    }
+
+    .services-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:18px;
+    }
+
+    .service-box{
+      background:linear-gradient(180deg,#fffdf8,#fff4e8);
+      border:1px solid #f3e0bf;
+      border-radius:24px;
+      padding:22px 18px;
+      box-shadow:var(--shadow);
+      text-align:center;
+    }
+
+    .service-icon{
+      width:66px;
+      height:66px;
+      border-radius:50%;
+      margin:0 auto 14px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:30px;
+      background:linear-gradient(135deg,#8b1016,#d37d18);
+      color:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .service-box h4{
+      color:var(--maroon);
+      font-size:22px;
+      margin-bottom:8px;
+    }
+
+    .service-box p{
+      font-size:16px;
+      color:#5a3a27;
+    }
+
+    .special-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+    }
+
+    .special-card{
+      background:linear-gradient(135deg,#7d0d12,#b84d13 60%,#e2b11d);
+      color:#fff;
+      border-radius:26px;
+      padding:24px 20px;
+      box-shadow:var(--shadow);
+    }
+
+    .special-card h4{
+      color:#ffe7a0;
+      font-size:24px;
+      margin-bottom:10px;
+    }
+
+    .special-card ul{
+      list-style:none;
+      display:grid;
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .special-card li{
+      background:rgba(255,255,255,.1);
+      border:1px solid rgba(255,255,255,.14);
+      padding:11px 12px;
+      border-radius:14px;
+    }
+
+    .relationship{
+      background:linear-gradient(135deg,#fff7e8,#fff0d1);
+      border:1px solid #f1d89a;
+    }
+
+    .contact-wrap{
+      display:grid;
+      grid-template-columns:1.05fr .95fr;
+      gap:18px;
+      align-items:stretch;
+    }
+
+    .contact-card{
+      background:linear-gradient(135deg,#fff,#fff8ef);
+      border:1px solid #f1e2c8;
+      border-radius:26px;
+      box-shadow:var(--shadow);
+      padding:24px 20px;
+    }
+
+    .contact-big{
+      background:linear-gradient(135deg,#7d0d12,#c65a13,#e0ac1d);
+      color:#fff;
+    }
+
+    .contact-big h4{
+      color:#ffe8a5;
+      font-size:28px;
+      margin-bottom:10px;
+    }
+
+    .cta-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:16px;
+    }
+
+    .small-note{
+      font-size:14px;
+      opacity:.9;
+      margin-top:12px;
+    }
+
+    footer{
+      background:#5b0a0e;
+      color:#fff;
+      margin-top:28px;
+      padding:30px 14px 100px;
+    }
+
+    .footer-wrap{
+      max-width:1100px;
+      margin:0 auto;
+      text-align:center;
+    }
+
+    .footer-wrap h4{
+      font-size:24px;
+      margin-bottom:8px;
+      color:#ffd56a;
+    }
+
+    .footer-wrap p{
+      opacity:.95;
+      margin-bottom:8px;
+    }
+
+    .footer-links{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:12px;
+      font-weight:700;
+    }
+
+    .bottom-nav{
+      position:fixed;
+      left:0;
+      right:0;
+      bottom:0;
+      background:rgba(255,255,255,.96);
+      backdrop-filter:blur(8px);
+      border-top:1px solid #ecdcc4;
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+      gap:4px;
+      padding:10px 6px calc(10px + env(safe-area-inset-bottom));
+      z-index:999;
+      box-shadow:0 -6px 20px rgba(0,0,0,.08);
+    }
+
+    .bottom-nav a{
+      flex:1;
+      text-align:center;
+      font-size:13px;
+      font-weight:800;
+      color:var(--maroon);
+      padding:6px 4px;
+    }
+
+    .float-actions{
+      position:fixed;
+      right:16px;
+      bottom:90px;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      z-index:999;
+    }
+
+    .float-btn{
+      width:64px;
+      height:64px;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:30px;
+      color:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .float-call{background:var(--maroon);}
+    .float-wa{background:var(--green);}
+
+    @media (max-width: 920px){
+      .hero,
+      .about-grid,
+      .services-grid,
+      .special-grid,
+      .contact-wrap{
+        grid-template-columns:1fr;
+      }
+
+      .hero h2{font-size:34px;}
+      .hero .sub{font-size:20px;}
+      .hero .desc{font-size:18px;}
+      .nav{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+      .nav-links{
+        justify-content:flex-start;
+        gap:10px;
+      }
+    }
+
+    @media (max-width: 560px){
+      .top-strip{font-size:13px;padding:10px 8px;}
+      header{padding:14px 12px 84px;}
+      .brand h1{font-size:18px;}
+      .brand p{font-size:11px;}
+      .hero-card{padding:24px 16px;border-radius:26px;}
+      .tag{font-size:12px;padding:7px 12px;}
+      .hero h2{font-size:28px;}
+      .hero .sub{font-size:18px;}
+      .hero .desc{font-size:17px;}
+      .btn{
+        width:100%;
+        font-size:18px;
+        padding:14px 18px;
+      }
+      .section{padding:24px 12px;}
+      .section-title h3{font-size:28px;}
+      .section-title p{font-size:16px;}
+      .card, .contact-card, .special-card{padding:18px 16px;}
+      .service-box h4{font-size:20px;}
+      .about-list li, .contact-list li, .service-list li{font-size:16px;}
+      .bottom-nav a{font-size:12px;}
+      .float-btn{width:60px;height:60px;font-size:28px;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ऊपर चलने वाली पट्टी -->
+  <div class="top-strip">
+    ज्योतिष परामर्श • वैदिक कर्मकाण्ड • विवाह मुहूर्त • उत्तराखंडी रिश्ते हेतु संपर्क
+  </div>
+
+  <!-- HEADER / HERO -->
+  <header id="home">
+    <div class="nav">
+      <div class="brand">
+        <div class="brand-logo">🕉️</div>
+        <div>
+          <h1>पंडित तारा दत्त शास्त्री</h1>
+          <p>ज्योतिषाचार्य | वैदिक कर्मकाण्ड विशेषज्ञ</p>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="#about">परिचय</a>
+        <a href="#services">सेवाएँ</a>
+        <a href="#special">विशेष सेवाएँ</a>
+        <a href="#relations">रिश्ते</a>
+        <a href="#contact">संपर्क</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-card">
+        <span class="tag">धार्मिक मार्गदर्शन • ज्योतिष • कर्मकाण्ड</span>
+        <h2>पंडित तारा दत्त शास्त्री</h2>
+        <div class="sub">ज्योतिषाचार्य | वैदिक कर्मकाण्ड विशेषज्ञ | धार्मिक परामर्श</div>
+        <div class="desc">
+          विवाह मुहूर्त, कुंडली मिलान, ग्रह दोष शांति, गृह प्रवेश, पूजा-पाठ,
+          धार्मिक अनुष्ठान तथा उत्तराखंडी रिश्तों के लिए विश्वसनीय मार्गदर्शन एवं सेवा।
+        </div>
+
+        <div class="hero-buttons">
+          <a class="btn btn-call" href="tel:9582674453">📞 अभी कॉल करें</a>
+          <a class="btn btn-wa" href="https://wa.me/919582674453" target="_blank">💬 WhatsApp करें</a>
+          <a class="btn btn-outline" href="#services">सेवाएँ देखें</a>
+        </div>
+      </div>
+
+      <div class="hero-side">
+        <div class="photo-card">
+          <div class="photo-box">
+            यहाँ अपनी फोटो लगाएँ<br>
+            (अभी placeholder है)
+          </div>
+          <div class="photo-note">
+            अपनी फोटो लगवानी हो तो मैं अगला code फोटो सहित बना दूँगा।
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="floating-curve"></div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-title">
+      <h3>परिचय</h3>
+      <p>धार्मिक परामर्श, वैदिक कर्मकाण्ड और ज्योतिषीय मार्गदर्शन की विश्वसनीय सेवा</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="card">
+        <h4>पंडित जी के बारे में</h4>
+        <p style="font-size:17px; margin-bottom:14px;">
+          पंडित तारा दत्त शास्त्री जी ज्योतिष, वैदिक कर्मकाण्ड तथा धार्मिक अनुष्ठानों से संबंधित
+          सेवाओं में समर्पित रूप से मार्गदर्शन प्रदान करते हैं। विवाह मुहूर्त, कुंडली मिलान,
+          ग्रह शांति, पूजा-पाठ और पारिवारिक धार्मिक कार्यों के लिए आप उनसे संपर्क कर सकते हैं।
+        </p>
+        <ul class="about-list">
+          <li>🔸 विवाह मुहूर्त एवं शुभ लग्न परामर्श</li>
+          <li>🔸 कुंडली मिलान एवं वैवाहिक मार्गदर्शन</li>
+          <li>🔸 ग्रह दोष शांति एवं धार्मिक उपाय</li>
+          <li>🔸 गृह प्रवेश, नामकरण, जनेऊ, पूजन एवं अनुष्ठान</li>
+        </ul>
+      </div>
+
+      <div class="card highlight">
+        <h4>विश्वास और सेवा</h4>
+        <ul class="about-list">
+          <li>✅ सरल, सम्मानपूर्ण और स्पष्ट परामर्श</li>
+          <li>✅ वैदिक परंपरा के अनुसार कर्मकाण्ड</li>
+          <li>✅ विवाह, गृहकार्य एवं पारिवारिक संस्कारों हेतु मार्गदर्शन</li>
+          <li>✅ धार्मिक एवं सामाजिक सेवाओं के लिए संपर्क</li>
+          <li>✅ उत्तराखंडी परिवारों के रिश्तों हेतु सहयोग</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="section-title">
+      <h3>मुख्य सेवाएँ</h3>
+      <p>आपकी धार्मिक, पारिवारिक और ज्योतिषीय आवश्यकताओं के लिए समर्पित सेवाएँ</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-box">
+        <div class="service-icon">🔯</div>
+        <h4>ज्योतिष परामर्श</h4>
+        <p>कुंडली, ग्रह स्थिति, जीवन से जुड़े प्रश्नों तथा धार्मिक मार्गदर्शन के लिए परामर्श।</p>
+      </div>
+
+      <div class="service-box">
+        <div class="service-icon">💍</div>
+        <h4>विवाह मुहूर्त</h4>
+        <p>विवाह के शुभ दिन, लग्न, मुहूर्त, पत्रिका मिलान और विवाह-संबंधी धार्मिक परामर्श।</p>
+      </div>
+
+      <div class="service-box">
+        <div class="service-icon">🪔</div>
+        <h4>वैदिक कर्मकाण्ड</h4>
+        <p>गृह प्रवेश, सत्यनारायण कथा, नामकरण, जनेऊ, पूजा-पाठ एवं अन्य वैदिक अनुष्ठान।</p>
+      </div>
+
+      <div class="service-box">
+        <div class="service-icon">🏠</div>
+        <h4>गृह प्रवेश / वास्तु पूजा</h4>
+        <p>नए घर, कार्यालय या दुकान के शुभ प्रवेश हेतु पूजन एवं अनुष्ठान व्यवस्था।</p>
+      </div>
+
+      <div class="service-box">
+        <div class="service-icon">🕉️</div>
+        <h4>ग्रह दोष शांति</h4>
+        <p>ग्रह शांति, धार्मिक उपाय, पूजन तथा शांति अनुष्ठान के लिए मार्गदर्शन।</p>
+      </div>
+
+      <div class="service-box">
+        <div class="service-icon">📿</div>
+        <h4>पूजा-पाठ एवं अनुष्ठान</h4>
+        <p>विभिन्न धार्मिक अवसरों, संस्कारों और परिवारिक पूजाओं हेतु संपूर्ण व्यवस्था।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIAL -->
+  <section class="section" id="special">
+    <div class="section-title">
+      <h3>विशेष सेवाएँ</h3>
+      <p>धार्मिक, सामाजिक और पारिवारिक आवश्यकताओं के लिए विशेष सहयोग</p>
+    </div>
+
+    <div class="special-grid">
+      <div class="special-card">
+        <h4>धार्मिक एवं ज्योतिषीय सहायता</h4>
+        <p>धार्मिक संस्कार, शुभ कार्य, ग्रह शांति एवं जीवन के महत्वपूर्ण निर्णयों के लिए मार्गदर्शन।</p>
+        <ul>
+          <li>विवाह, सगाई, मुंडन, नामकरण आदि हेतु शुभ मुहूर्त</li>
+          <li>कुंडली मिलान एवं धार्मिक परामर्श</li>
+          <li>पूजा-पाठ, अनुष्ठान एवं गृह शांति</li>
+          <li>परिवारिक धार्मिक आयोजनों के लिए सहयोग</li>
+        </ul>
+      </div>
+
+      <div class="special-card">
+        <h4>पारिवारिक एवं सामाजिक मार्गदर्शन</h4>
+        <p>रिश्तों, परिवारिक आयोजनों और सामाजिक आवश्यकताओं में विश्वासपूर्ण सहयोग।</p>
+        <ul>
+          <li>उत्तराखंडी रिश्तों के लिए संपर्क एवं मार्गदर्शन</li>
+          <li>शुभ कार्यों हेतु धार्मिक परामर्श</li>
+          <li>विवाह पूर्व पारंपरिक मार्गदर्शन</li>
+          <li>समारोह एवं संस्कारों हेतु संपर्क सेवा</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELATIONS -->
+  <section class="section" id="relations">
+    <div class="section-title">
+      <h3>उत्तराखंडी रिश्ते हेतु संपर्क</h3>
+      <p>उत्तराखंडी परिवारों के लिए विवाह एवं रिश्तों से संबंधित सम्मानपूर्ण संपर्क सेवा</p>
+    </div>
+
+    <div class="card relationship">
+      <h4 style="font-size:28px; color:#7d0d12; margin-bottom:10px;">उत्तराखंडी रिश्तों के लिए मार्गदर्शन</h4>
+      <p style="font-size:18px; margin-bottom:16px;">
+        यदि आप उत्तराखंडी परिवारों के लिए उचित रिश्ते की तलाश, संपर्क या मार्गदर्शन चाहते हैं,
+        तो पंडित तारा दत्त शास्त्री जी से संपर्क कर सकते हैं।
+      </p>
+
+      <ul class="service-list">
+        <li>🔸 उत्तराखंडी परिवारों के लिए सम्मानपूर्ण संपर्क व्यवस्था</li>
+        <li>🔸 विवाह संबंधी प्रारंभिक धार्मिक एवं सामाजिक मार्गदर्शन</li>
+        <li>🔸 परिवारों के बीच उचित संवाद और संपर्क में सहयोग</li>
+        <li>🔸 आवश्यक होने पर ज्योतिषीय परामर्श / कुंडली मिलान</li>
+      </ul>
+
+      <div class="cta-row" style="margin-top:18px;">
+        <a class="btn btn-call" href="tel:9582674453">📞 रिश्ते हेतु कॉल करें</a>
+        <a class="btn btn-wa" href="https://wa.me/919582674453" target="_blank">💬 WhatsApp करें</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-title">
+      <h3>संपर्क करें</h3>
+      <p>धार्मिक परामर्श, मुहूर्त, कर्मकाण्ड या रिश्तों से संबंधित जानकारी के लिए संपर्क करें</p>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-card contact-big">
+        <h4>अभी संपर्क करें</h4>
+        <p style="font-size:18px;">
+          विवाह मुहूर्त, ज्योतिष परामर्श, कुंडली मिलान, गृह प्रवेश, पूजा-पाठ तथा उत्तराखंडी रिश्तों
+          के लिए अभी संपर्क करें।
+        </p>
+
+        <div class="cta-row">
+          <a class="btn btn-call" href="tel:9582674453">📞 कॉल करें</a>
+          <a class="btn btn-wa" href="https://wa.me/919582674453" target="_blank">💬 WhatsApp करें</a>
+        </div>
+
+        <div class="small-note">
+          कृपया कॉल/WhatsApp करने से पहले अपने विषय की संक्षिप्त जानकारी तैयार रखें।
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h4>संपर्क विवरण</h4>
+        <ul class="contact-list">
+          <li><strong>नाम:</strong> पंडित तारा दत्त शास्त्री</li>
+          <li><strong>सेवाएँ:</strong> ज्योतिष, वैदिक कर्मकाण्ड, विवाह मुहूर्त, धार्मिक प<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>पंडित तारा दत्त शास्त्री | ज्योतिष एवं वैदिक कर्मकाण्ड</title>
   <meta name="description" content="पंडित तारा दत्त शास्त्री - ज्योतिष परामर्श, विवाह मुहूर्त, कुंडली मिलान, गृह प्रवेश, पूजा-पाठ, धार्मिक अनुष्ठान एवं उत्तराखंडी रिश्तों के लिए संपर्क करें।" />
   <style>
